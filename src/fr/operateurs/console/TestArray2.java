@@ -2,6 +2,7 @@ package fr.operateurs.console;
 
 import java.util.Arrays;
 
+
 public class TestArray2 {
 
 	public static void main(String[] args) {
@@ -32,8 +33,18 @@ public class TestArray2 {
 		
 		System.out.println("\n***** L'array des doublons *****");
 		
+		for (int i = 0; i < array.length; i++) {
+			
+			for(int j = i+1; j < array.length; j++) {
+				if (array[i] == (array[j])) {
+					System.out.println(array[i]);
+				}
+			}
+		}
 		
+		System.out.println("\n***** L'array en tri *****");
 		
+		Arrays.sort(array);
 	}
 	
 
