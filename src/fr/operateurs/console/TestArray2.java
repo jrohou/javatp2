@@ -30,6 +30,10 @@ public class TestArray2 {
 		
 		System.out.println(Arrays.asList(array).indexOf(15));
 		
+		System.out.println("\n***** L'array des doublons *****");
+		
+		
+		
 	}
 	
 
